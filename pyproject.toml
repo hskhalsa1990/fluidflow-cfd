@@ -1,0 +1,15 @@
+[project]
+name = "fluidflow-cfd"
+version = "1.6.0"
+description = "Validated 2D incompressible flow toolkit in pure NumPy/SciPy"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_main.py"]
+
+[tool.ruff]
+line-length = 120

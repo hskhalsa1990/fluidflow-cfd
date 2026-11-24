@@ -1,0 +1,77 @@
+{
+  "fixed_heads": {
+    "R": 50.0
+  },
+  "demands": {
+    "B": 0.004,
+    "C": 0.003,
+    "D": 0.005
+  },
+  "positions": {
+    "R": [
+      0,
+      1
+    ],
+    "A": [
+      1,
+      1
+    ],
+    "B": [
+      2,
+      2
+    ],
+    "C": [
+      2,
+      0
+    ],
+    "D": [
+      3,
+      1
+    ]
+  },
+  "pipes": [
+    {
+      "name": "P1",
+      "from": "R",
+      "to": "A",
+      "diameter": 0.2,
+      "length": 400
+    },
+    {
+      "name": "P2",
+      "from": "A",
+      "to": "B",
+      "diameter": 0.12,
+      "length": 300
+    },
+    {
+      "name": "P3",
+      "from": "A",
+      "to": "C",
+      "diameter": 0.12,
+      "length": 350
+    },
+    {
+      "name": "P4",
+      "from": "B",
+      "to": "D",
+      "diameter": 0.1,
+      "length": 250
+    },
+    {
+      "name": "P5",
+      "from": "C",
+      "to": "D",
+      "diameter": 0.1,
+      "length": 300
+    },
+    {
+      "name": "P6",
+      "from": "B",
+      "to": "C",
+      "diameter": 0.08,
+      "length": 200,
+      "minor_k": 3.0
+    }
+  ]
+}
